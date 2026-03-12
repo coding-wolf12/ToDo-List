@@ -16,7 +16,7 @@ body {
 .container{
     position: absolute;
     background-color:#fff;
-    width:35%;
+    width:40%;
     /* height: 35%; */
     border-radius: 18px;
     left: 50%;
@@ -115,14 +115,14 @@ body {
     color: red;
     font-size: 14px;
 }
-
+/* 
 
 
 /* Tablet screens */
-@media (max-width: 768px){
+@media (max-width: 1000px){
 
     .container{
-        width: 70%;
+        width: 50%;
         top: 10%;
     }
 
@@ -149,4 +149,36 @@ body {
         right: 10%;
     }
     
+}
+/* Mobile screens */
+@media (max-width: 760px){
+
+    .container{
+        width: 40wv;
+        top: 8%;
+    }
+
+    .heading h1{
+        font-size: 22px;
+    }
+
+    .addItems input{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .addItems button{
+        margin-left: 70px;
+        position: static;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .task{
+        font-size: 15px;
+    }
+
+    .fa-xmark{
+        right: 15%;
+    }
 }
